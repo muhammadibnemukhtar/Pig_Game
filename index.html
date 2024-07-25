@@ -4,34 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pig Game</title>
+    <link rel="Stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <section class="player player1 playeractive">
+      <section class="player1 playeractive">
         <div class="streakBox">
-          <h3 class="streak">🔥STREAK</h3>
-          <p class="streakScore">0</p>
+          <div class="streakpos">
+            <h3 class="streak" title="Wining Streak">🔥 STREAK</h3>
+            <p class="streakScore">0</p>
+          </div>
         </div>
-        <h2 class="name">Player 1</h2>
-        <p class="score">0</p>
-        <div class="currentscore">
-          <h3 class="scoreType">CURRENT</h3>
-          <p class="currscore">0</p>
+        <div class="playerscore">
+          <h2 class="name">Player 1</h2>
+          <p class="score1" title="Turn Score">0</p>
+        </div>
+        <div class="scorecard">
+          <div class="currentscore1">
+            <h3 class="scoreType">CURRENT</h3>
+            <p class="currscore">SCORE 0</p>
+          </div>
         </div>
       </section>
 
-      <section class="player player2">
-        <div class="streakBox">
-          <h3 class="streak">🔥STREAK</h3>
-          <p class="streakScore">0</p>
+      <section class="playermenu">
+        <div class="againdiv">
+          <button class="newgame">🔁 NEW GAME</button>
+          <img class="Dice Hidden" src="\dice faces\onered.png" />
         </div>
-        <h2 class="name">Player 1</h2>
-        <p class="score">0</p>
-        <div class="currentscore">
-          <h3 class="scoreType">CURRENT</h3>
-          <p class="currscore">0</p>
+        <div class="passdiv">
+          <button class="diceroll">🎲 ROLL DICE</button>
+          <button class="pass" title="Add to Current Score & Pass">
+            🤚 PASS
+          </button>
+        </div>
+      </section>
+
+      <section class="player2">
+        <div class="streakBox">
+          <div class="streakpos">
+            <h3 class="streak" title="Wining Streak">🔥 STREAK</h3>
+            <p class="streakScore">0</p>
+          </div>
+        </div>
+        <div class="playerscore">
+          <h2 class="name">Player 2</h2>
+          <p class="score2" title="Turn Score">0</p>
+        </div>
+        <div class="scorecard">
+          <div class="currentscore2">
+            <h3 class="scoreType">CURRENT</h3>
+            <p class="currscore">SCORE 0</p>
+          </div>
         </div>
       </section>
     </main>
+    <h1 class="note">
+      Note: No. of Passes Allowed are <b>FIVE</b>. During Any Player's Turn if
+      <b>ONE</b> came, Turn score will be multifplied to <b>ZERO</b> and Turn
+      will be Passed.
+    </h1>
   </body>
 </html>
