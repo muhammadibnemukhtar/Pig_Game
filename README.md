@@ -66,11 +66,6 @@ Contributions are welcome! If you have any suggestions or improvements, feel
 free to submit a pull request. Please ensure that your contributions adhere
 to the coding standards and practices used in this project.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for
-more details.
-
 ## Improvements
 
 We are always looking to improve the game. If you have any ideas or
