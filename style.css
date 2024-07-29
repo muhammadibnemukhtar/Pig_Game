@@ -38,27 +38,38 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  padding: 30px 0px 25px 0px;
+  padding: 20px 0px 25px 0px;
   align-items: center;
-  background-color: #f9d8d6c4;
+  background-color: #e6e5e58c;
   border-radius: 15px;
   box-shadow: 5px 8px 15px rgba(39, 39, 39, 0.5);
 }
 
 .streakBox {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   height: 10%;
   width: 100%;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
-.streakpos h3,
-.streakpos p {
-  font-size: larger;
+.streakpos h3 {
+  font-size: large;
   color: #363636;
-  margin: 0px 5px 0px 5px;
+  margin: 0px 3px 0px 3px;
+}
+
+.passpos {
+  display: flex;
+  align-items: center;
+}
+
+.passpos h3 {
+  font-size: large;
+  color: #363636;
+  margin: 0px 5px 0px 3px;
 }
 
 .playerscore {
@@ -80,8 +91,9 @@ main {
   font-size: 30px;
   color: #ffffff;
   text-align: center;
+  align-content: center;
   text-wrap: wrap;
-  width: 150px;
+  width: 140px;
   height: 155px;
   padding-top: 10px;
 }
@@ -174,6 +186,11 @@ main {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.newgame:active {
+  box-shadow: none;
+  scale: 95%;
+}
+
 .Hidden {
   visibility: hidden;
 }
@@ -243,9 +260,9 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  padding: 30px 0px 25px 0px;
+  padding: 20px 0px 25px 0px;
   border-radius: 15px;
   align-items: center;
-  background-color: #d6cdeabe;
+  background-color: #e7e7e78f;
   box-shadow: 5px 8px 15px rgba(39, 39, 39, 0.5);
 }
