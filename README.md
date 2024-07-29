@@ -12,7 +12,6 @@ if they roll a one. The game is implemented using HTML, CSS, and JavaScript.
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Improvements](#improvements)
 
 ## Game Rules
