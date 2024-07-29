@@ -12,7 +12,6 @@ if they roll a one. The game is implemented using HTML, CSS, and JavaScript.
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Improvements](#improvements)
 
 ## Game Rules
@@ -65,11 +64,6 @@ No additional setup is required.
 Contributions are welcome! If you have any suggestions or improvements, feel
 free to submit a pull request. Please ensure that your contributions adhere
 to the coding standards and practices used in this project.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for
-more details.
 
 ## Improvements
 
