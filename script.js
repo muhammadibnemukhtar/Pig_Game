@@ -117,6 +117,9 @@ const againFunction = function () {
   p2passes = 0;
   p1score = 0;
   p2score = 0;
+  turnscore = 0;
+  activeplayer.textContent = 0;
+  activeplayer = currP1;
   pass.addEventListener("click", passfunction);
   rollDice.addEventListener("click", rolling);
   document.querySelector(".currentscore1").style.backgroundColor = "#9e4677";
