@@ -75,4 +75,4 @@ Thank you for playing the Pig Game! Enjoy and have fun!
 
 ## GitHub Repository
 
-You can find the GitHub repository for this project (https://github.com/muhammadibnemukhtar/pig-game).
+You can find the GitHub repository for this project (https://github.com/muhammadibnemukhtar/Pig_Game).
